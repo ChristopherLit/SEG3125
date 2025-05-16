@@ -61,6 +61,43 @@ export default function Home() {
           </div>
         </section>
 
+           {/* Experience */}
+        <section id="experience" className="py-20 px-6 bg-white text-gray-900">
+          <div className="container mx-auto max-w-3xl">
+            <h2 className="text-3xl font-mono text-orange-500 mb-8 text-center">// Experience</h2>
+            
+            <div className="flex flex-col space-y-12">
+
+               {/* Kinaxis */}
+              <div className="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200">
+                <div className="h-48 overflow-hidden rounded-md mb-4">
+                  <img src="kinaxis_logo.png" alt="Kinaxis" className="w-full h-full object-cover" />
+                </div>
+                <h3 className="text-xl font-semibold font-mono">Software Engineer Intern <span className="text-sm text-gray-500">(Jan 2025 - Apr 2025)</span></h3>
+                <p className="mt-2 font-mono text-sm">
+                  Kinaxis
+                  <br />
+                  Vibe coded and played ping pong
+                </p>
+              </div>
+
+              {/* CEED uOttawa */}
+              <div className="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200">
+                <div className="h-48 overflow-hidden rounded-md mb-4">
+                  <img src="ceed_logo.png" alt="CEED uOttawa" className="w-full h-full object-cover" />
+                </div>
+                <h3 className="text-xl font-semibold font-mono">Software Engineer Intern <span className="text-sm text-gray-500">(May 2024 - Aug 2024)</span></h3>
+                <p className="mt-2 font-mono text-sm">
+                  CEED
+                  <br />
+                  Developed interactive UI components for educational web applications, collaborating with cross functional teams.
+                </p>
+              </div>
+             
+            </div>
+          </div>
+        </section>
+
         {/* Workflow */}
         <section id="workflow" className="py-20 px-6 bg-gray-50 text-gray-900">
           <div className="container mx-auto max-w-2xl">
