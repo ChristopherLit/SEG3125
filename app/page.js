@@ -142,7 +142,7 @@ export default function Home() {
             <h2 className="text-3xl font-mono text-orange-500 mb-8 text-center">// Testimonials</h2>
             <div className="space-y-8">
               {[
-                { quote: 'Their ability to architect scalable systems while effortlessly navigating complex asynchronous workflows is a testament to both deep technical expertise and clean, maintainable code practices', author: 'Feiyu' },
+                { quote: 'Very knowledgeable with user interfaces! Going to make it out the matrix with this', author: 'Feiyu' },
                 { quote: 'I ate a chipotle bowl yesterday', author: 'August' },
                 { quote: 'From optimizing database queries with precision to implementing reactive state management with elegance, their coding skills consistently exceed industry standards', author: 'A Random cat' },
               ].map((t, i) => (
