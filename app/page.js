@@ -120,22 +120,48 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Projects */}
-        <section id="projects" className="py-20 px-6 bg-white text-gray-900">
-          <div className="container mx-auto">
-            <h2 className="text-3xl font-mono text-orange-500 mb-8 text-center">// Projects</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
-              {['case1','case2','case3','case4'].map((img, i) => (
-                <a key={i} href="#" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
-                  <div className="h-48 overflow-hidden rounded-md mb-4">
-                    <img src={`/images/${img}.jpg`} alt={`Project ${i+1}`} className="w-full h-full object-cover" />
-                  </div>
-                  <p className="font-mono text-orange-500 text-lg">Project {i+1} &mdash; Coming Soon</p>
-                </a>
-              ))}
-            </div>
+      {/* Projects */}
+      <section id="projects" className="py-20 px-6 bg-white text-gray-900">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-mono text-orange-500 mb-8 text-center">// Projects</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+            
+            {/* Design 1: Bike Shop */}
+            <a href="#" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
+              <div className="h-48 overflow-hidden rounded-md mb-4">
+                <img src="bike.png" alt="Service Site" className="w-full h-full object-cover" />
+              </div>
+              <p className="font-mono text-orange-500 text-lg">Bike Shop Site (Coming Soon)</p>
+            </a>
+
+            {/* Design 2: Chess Game */}
+            <a href="#" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
+              <div className="h-48 overflow-hidden rounded-md mb-4">
+                <img src="chess.png" alt="Small Game" className="w-full h-full object-cover" />
+              </div>
+              <p className="font-mono text-orange-500 text-lg">Chess Game (Coming Soon)</p>
+            </a>
+
+            {/* Design 3: E‑commerce Site */}
+            <a href="#" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
+              <div className="h-48 overflow-hidden rounded-md mb-4">
+                <img src="ecommerce.png" alt="E‑commerce Site" className="w-full h-full object-cover" />
+              </div>
+              <p className="font-mono text-orange-500 text-lg">E‑commerce Site (Coming Soon)</p>
+            </a>
+
+            {/* Design 4: Analytics Dashboard */}
+            <a href="#" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
+              <div className="h-48 overflow-hidden rounded-md mb-4">
+                <img src="analytics.png" alt="Analytics Dashboard" className="w-full h-full object-cover" />
+              </div>
+              <p className="font-mono text-orange-500 text-lg">Analytics Dashboard (Coming Soon)</p>
+            </a>
+
           </div>
-        </section>
+        </div>
+      </section>
+
 
         {/* Testimonials */}
         <section id="testimonials" className="py-20 px-6 bg-gray-50 text-gray-900">
