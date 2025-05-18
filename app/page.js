@@ -113,9 +113,10 @@ export default function Home() {
         return deliverProduct();
       }`}
                   </pre>
-            <p className="mt-6 font-mono">
-              This code-like depiction ensures a transparent, repeatable process. Learn about UX heuristics on NN/g <a href="https://www.nngroup.com/" className="text-orange-500 hover:underline">here</a>.
-            </p>
+            <p className="mt-6 text-base text-gray-800 font-sans leading-relaxed">
+  My design process starts with gathering requirements and researching best practices. I create wireframes and interactive prototypes using Figma, test them with users, and iterate based on feedback to ensure the final design meets both user and business needs.
+</p>
+
           </div>
         </section>
 
@@ -142,7 +143,7 @@ export default function Home() {
             <h2 className="text-3xl font-mono text-orange-500 mb-8 text-center">// Testimonials</h2>
             <div className="space-y-8">
               {[
-                { quote: 'Very knowledgeable with user interfaces! Going to make it out the matrix with this', author: 'Feiyu' },
+                { quote: 'Very knowledgeable with user interfaces!', author: 'Feiyu' },
                 { quote: 'I ate a chipotle bowl yesterday', author: 'August' },
                 { quote: 'From optimizing database queries with precision to implementing reactive state management with elegance, their coding skills consistently exceed industry standards', author: 'A Random cat' },
               ].map((t, i) => (
