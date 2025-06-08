@@ -125,8 +125,8 @@ export default function DriveAcademy() {
     </nav>
   )
 
-  // Landing Page Component
-  const LandingPage = ({ setCurrentPage }) => (
+// Landing Page Component
+const LandingPage = ({ setCurrentPage }) => (
   <div style={styles.page}>
     <div style={styles.hero}>
       <div style={styles.heroContent}>
@@ -137,7 +137,10 @@ export default function DriveAcademy() {
             Professional driving instruction with experienced instructors. Learn to drive safely and confidently with
             our comprehensive lessons.
           </p>
-          <button style={styles.ctaButton} onClick={() => setCurrentPage("services")}>
+          <button 
+            style={styles.ctaButton} 
+            onClick={() => setCurrentPage("services")}
+          >
             Book a Lesson
           </button>
         </div>
@@ -152,8 +155,7 @@ export default function DriveAcademy() {
               overflow: "hidden",
             }}
           >
-          <img src="/car.png" alt="Car" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-
+            <img src="/car.png" alt="Car" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
         </div>
       </div>
@@ -574,7 +576,7 @@ export default function DriveAcademy() {
   const renderCurrentPage = () => {
     switch (currentPage) {
       case "landing":
-        return <LandingPage />
+        return <LandingPage setCurrentPage={setCurrentPage} />
       case "services":
         return <ServiceSelectionPage />
       case "reservation":
