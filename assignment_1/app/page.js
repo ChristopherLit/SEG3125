@@ -127,11 +127,11 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
             
             {/* Design 1: Bike Shop */}
-            <a href="#" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
+            <a href="https://seg3125-assignment2.vercel.app/" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
               <div className="h-48 overflow-hidden rounded-md mb-4">
-                <img src="bike.png" alt="Service Site" className="w-full h-full object-cover" />
+                <img src="driving.png" alt="Service Site" className="w-full h-full object-cover" />
               </div>
-              <p className="font-mono text-orange-500 text-lg">Bike Shop Site (Coming Soon)</p>
+              <p className="font-mono text-orange-500 text-lg">Driving Lessons Service</p>
             </a>
 
             {/* Design 2: Chess Game */}
