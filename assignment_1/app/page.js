@@ -134,12 +134,12 @@ export default function Home() {
               <p className="font-mono text-orange-500 text-lg">Driving Lessons Service</p>
             </a>
 
-            {/* Design 2: Chess Game */}
-            <a href="#" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
+            {/* Design 2: Memory Game */}
+            <a href="https://seg3125-sequence-memory-game.netlify.app/" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
               <div className="h-48 overflow-hidden rounded-md mb-4">
-                <img src="chess.png" alt="Small Game" className="w-full h-full object-cover" />
+                <img src="memory_logo.png" alt="Memory Game" className="w-full h-full object-cover" />
               </div>
-              <p className="font-mono text-orange-500 text-lg">Chess Game (Coming Soon)</p>
+              <p className="font-mono text-orange-500 text-lg">Memory Game</p>
             </a>
 
             {/* Design 3: E‑commerce Site */}
