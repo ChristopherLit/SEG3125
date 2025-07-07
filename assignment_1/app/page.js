@@ -143,11 +143,11 @@ export default function Home() {
             </a>
 
             {/* Design 3: E‑commerce Site */}
-            <a href="#" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
+            <a href="https://seg-3125-keyboard-site.vercel.app/" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
               <div className="h-48 overflow-hidden rounded-md mb-4">
                 <img src="ecommerce.png" alt="E‑commerce Site" className="w-full h-full object-cover" />
               </div>
-              <p className="font-mono text-orange-500 text-lg">E‑commerce Site (Coming Soon)</p>
+              <p className="font-mono text-orange-500 text-lg">E‑commerce Site</p>
             </a>
 
             {/* Design 4: Analytics Dashboard */}
