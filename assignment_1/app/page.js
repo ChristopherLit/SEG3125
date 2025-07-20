@@ -151,11 +151,11 @@ export default function Home() {
             </a>
 
             {/* Design 4: Analytics Dashboard */}
-            <a href="#" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
+            <a href="https://seg3125-assignment5.vercel.app/" className="block bg-gray-50 p-6 rounded-xl hover:shadow-2xl transition-shadow border border-gray-200">
               <div className="h-48 overflow-hidden rounded-md mb-4">
                 <img src="analytics.png" alt="Analytics Dashboard" className="w-full h-full object-cover" />
               </div>
-              <p className="font-mono text-orange-500 text-lg">Analytics Dashboard (Coming Soon)</p>
+              <p className="font-mono text-orange-500 text-lg">Analytics Dashboard</p>
             </a>
 
           </div>
